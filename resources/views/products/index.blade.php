@@ -8,6 +8,7 @@
     <button id="openModalBtn" class="btn btn-primary">Adicionar Produto</button>
 </div>
 
+
 <div class="products-grid">
     @forelse($products as $product)
         <div class="product-card">
